@@ -1,0 +1,68 @@
+*
+  margin: 0
+  padding: 0
+  border: none
+  outline: none
+  box-sizing: border-box
+
+html,
+body
+  height: 100%
+  background: #111
+  font-family: sans-serif
+
+body
+  display: grid
+  align-content: center
+  justify-content: center
+  grid-template-rows: auto
+  grid-template-columns: 300px
+
+#app
+  padding: 1.5rem 0
+  background: #1a1a1a
+  border-radius: 0.4rem
+
+  form
+    display: grid
+    grid-gap: 2rem
+    grid-auto-rows: auto
+    justify-items: center
+    grid-template-columns: 1fr
+
+  input
+    width: 120px
+    color: #fff
+    font-weight: 100
+    font-size: 1.3rem
+    background: transparent
+    text-align: center
+
+    &::placeholder
+      color: #969696
+
+  button
+    border: none
+    color: #fff
+    outline: none
+    cursor: pointer
+    font-weight: 100
+    font-size: 1.3rem
+    width: max-content
+    border-radius: 5rem
+    padding: 0.5rem 1rem
+    background: linear-gradient(to right, #84e, #7159c1)
+
+  main
+    width: 100%
+    position: relative
+    text-align: center
+    transition: all 1s
+
+  p
+    color: #8354f2
+    margin: 0.6rem 0
+    font-size: 1.1rem
+
+  p:nth-child(1)
+    padding-top: 1.3rem

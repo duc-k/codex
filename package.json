@@ -1,0 +1,13 @@
+{
+  "name": "codex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node-sass --watch bundle.sass bundle.css --output-style compressed"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {}
+}
